@@ -1,0 +1,48 @@
+/* Social Media Bar */
+.social-media-bar {
+  background-color: #0c0808; /* Dark background color for the social media bar */
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: flex-end; /* Align icons to the right */
+  gap: 1rem;
+}
+
+.social-icon {
+  color: #ffffff; /* Icon color */
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #f1f5f9; /* Change color on hover */
+}
+
+/* Main Navbar */
+.custom-navbar {
+  background-color: #001632; /* Dark blue background color for the navbar */
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc; /* Optional: Add a bottom border */
+}
+
+.navbar-brand .logo-image {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* Navbar links color */
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f1f5f9; /* Change color on hover */
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  border: none; /* Remove border from the toggler */
+}
+
+.navbar-toggler:focus {
+  box-shadow: none; /* Remove focus shadow */
+}

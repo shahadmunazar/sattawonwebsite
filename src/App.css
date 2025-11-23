@@ -1,0 +1,8 @@
+/* Body Background Color */
+body {
+  background-color: #13171b99; /* Light background color for all pages */
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Ensure consistent font */
+  color: #f7f2f2; /* Default text color */
+}
+

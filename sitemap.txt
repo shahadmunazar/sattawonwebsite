@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://sattakingmaker.com/</loc>
+      <lastmod>2024-09-25</lastmod>
+      <priority>1.00</priority>
+   </url>
+   <url>
+      <loc>https://sattakingmaker.com/about</loc>
+      <lastmod>2024-09-25</lastmod>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://sattakingmaker.com/playgame</loc>
+      <lastmod>2024-09-25</lastmod>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://sattakingmaker.com/blog</loc>
+      <lastmod>2024-09-25</lastmod>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://sattakingmaker.com/blog/post-1</loc>
+      <lastmod>2024-09-25</lastmod>
+      <priority>0.64</priority>
+   </url>
+
+   <url>
+      <loc>https://sattakingmaker.com/blog/post-2</loc>
+      <lastmod>2024-09-25</lastmod>
+      <priority>0.64</priority>
+   </url>
+
+</urlset>

@@ -1,0 +1,59 @@
+.forum-container {
+    padding: 1rem; /* Less padding around the main container */
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+/* Card Styling */
+.animated-card {
+    padding: 0.8rem; /* Compact padding for each card */
+    height: auto; /* Adjust height to fit the content */
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem; /* Small gap between elements */
+    justify-content: space-around;
+    transition: 
+        transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), 
+        box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1),
+        background-color 0.4s ease;
+    border-radius: 8px;
+    will-change: transform, box-shadow;
+}
+
+/* Hover effect with subtle scaling and shadow */
+.animated-card:hover {
+    transform: translateY(-5px) scale(1.02) rotate(1deg);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Typography adjustments */
+.animated-card h6 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.animated-card p {
+    margin: 0; /* Remove extra space between paragraphs */
+    line-height: 1.5; /* Improve readability */
+    color: #555;
+}
+
+/* Smooth animation for hovering in/out */
+@keyframes hoverBounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* On hover, add a bounce effect */
+.animated-card:hover {
+    animation: hoverBounce 0.6s ease-in-out;
+}
